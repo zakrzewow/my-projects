@@ -32,7 +32,7 @@ Maybe it still works [here](https://zakrzewow.shinyapps.io/twd2/).
 ![](PosterAboutClimate/poster.png)
 
 ## Stack Exchange Data Analysis
-[Very short](StackExchangeDataAnalysis/README.md) view at some of Stack Exchange Forums with R, pandas and R Markdown.
+[Very brief](StackExchangeDataAnalysis/README.md) look at some Stack Exchange Forums. With R, pandas and R Markdown.
 
 ---
 Done in collaboration with my colleagues. Projects are added after being finished.
