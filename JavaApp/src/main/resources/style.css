@@ -1,0 +1,41 @@
+.root {
+    -fx-font-size: 13px;
+    -fx-font-family: "Droid Serif", SansSerif;
+}
+
+.h1-size {
+    -fx-font-size: 1.2em;
+}
+
+
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+}
+
+#checkBoxesPane {
+    -fx-spacing: 5px;
+}
+
+.navbar {
+    -fx-spacing: 5px;
+    -fx-font-size: 1.1em;
+}
+
+#calculatorBox .label {
+    -fx-padding: 5;
+    -fx-font-size: 1.5em;
+}
+
+#calculatorBox > VBox {
+    -fx-alignment: "CENTER";
+    -fx-padding: 5;
+}
+
+#calculatorTitle {
+    -fx-font-size: 2em;
+    -fx-font-weight: bold;
+}

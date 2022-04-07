@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.cell.CheckBoxTableCell?>
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="project.gui.AppController"
+            fx:id="mainPane"
+            stylesheets="style.css"
+            prefHeight="800"
+            prefWidth="1000"
+        >
+
+    <padding>
+        <Insets topRightBottomLeft="10"/>
+    </padding>
+
+    <top>
+        <HBox styleClass="navbar">
+            <Button onAction="#handleShowChartView" text="Wykresy"/>
+            <Button onAction="#handleShowCalculatorView" text="Kalkulator walut"/>
+            <Button onAction="#handleShowTrendsView" text="Wzrosty i spadki"/>
+        </HBox>
+    </top>
+
+    <left>
+        <VBox spacing="5" prefWidth="200">
+            <padding>
+                <Insets top="10"/>
+            </padding>
+
+            <Label styleClass="h1-size" text="Wybierz aktywa:"/>
+            <VBox fx:id="checkBoxesPane"/>
+            <Separator/>
+            <Label styleClass="h1-size" fx:id="dateRangeSelectLabel" text="Wybierz przedział:"/>
+            <Label styleClass="h1-size" fx:id="singleDateSelectLabel" text="Wybierz datę:"/>
+            <DatePicker fx:id="startDatePicker"/>
+            <DatePicker fx:id="endDatePicker"/>
+            <Separator/>
+            <Button styleClass="h1-size" onAction="#handleConfirmInput" text="Zatwierdź"/>
+
+        </VBox>
+    </left>
+
+    <center>
+    </center>
+
+    <bottom>
+        <VBox>
+            <Separator/>
+            <Label text="Eksport danych" />
+            <HBox spacing="5">
+                <Button onAction="#saveCsv" text=".csv"/>
+                <Button onAction="#saveJson" text=".json"/>
+            </HBox>
+        </VBox>
+
+    </bottom>
+
+</BorderPane>
