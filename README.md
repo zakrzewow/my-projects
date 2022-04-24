@@ -1,18 +1,20 @@
 # my-projects
-This repo contains some of my univeristy projects. 
+This repo contains some of my univeristy projects.
 
 
 ## Polish companies bankruptcy
 
-Machine learnign project - bankruptcy prediction of Polish companies
+Machine learning project - bankruptcy prediction of Polish companies
 
 In progress 🔧
 
 ## Predicting human activity 
 
-Machine learnign project - predicting human activity based on smartphone movement measurements 
+[Machine learning project](PredictingHumanActivity/README.md) - predicting human activity based on smartphone movement measurements. 
 
-In progress 🔧
+![](PredictingHumanActivity/images/xgb_confusion_matrix_all.png)
+
+![](PredictingHumanActivity/images/xgb_roc_curve_val.png)
 
 ## Java GUI app
 
