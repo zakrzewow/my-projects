@@ -1,12 +1,12 @@
 # my-projects
-This repo contains some of my univeristy projects.
+This repo contains some of my university projects.
 
 
 ## Polish companies bankruptcy
 
-Machine learning project - bankruptcy prediction of Polish companies
+[Machine learning project](BankruptcyPrediction/README.md) - bankruptcy prediction of Polish companies
 
-In progress 🔧
+![](BankruptcyPrediction/images/xgboost_metrics.png)
 
 ## Predicting human activity 
 
