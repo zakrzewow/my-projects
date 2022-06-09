@@ -1,6 +1,11 @@
 # my-projects
 This repo contains some of my university projects.
 
+## Clustering US Census
+
+[Machine learning project](ClusteringUSCensus/README.md) - clustering US Census (1990) data set
+
+![](ClusteringUSCensus/images/kmeans6.png)
 
 ## Polish companies bankruptcy
 
