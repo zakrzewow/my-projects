@@ -1,6 +1,12 @@
 # my-projects
 This repo contains some of my university projects.
 
+## Feature selection methods benchmark
+
+[Feature selection methods benchmark](FeatureSelectionBenchmark) - mutual information (JMI & CMIM), random forest feature importance, sequential feature selection
+* [presentation](FeatureSelectionBenchmark/ZakGrz_presentation.pdf)
+* [report](FeatureSelectionBenchmark/ZakGrz_report.pdf)
+
 ## Clustering US Census
 
 [Machine learning project](ClusteringUSCensus/README.md) - clustering US Census (1990) data set
